@@ -4,7 +4,6 @@ import geopandas as gpd
 import json
 import requests
 import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
 
 import folium
@@ -185,6 +184,7 @@ if isinstance(date_range, tuple) and len(date_range) == 2:
 else:
 
     st.sidebar.warning("Por favor, selecione um intervalo válido de datas.")
+
 
 
 
